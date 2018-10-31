@@ -1,0 +1,10 @@
+{
+	"id": "586C6E49-00C2-4355-A57D-A568C2596B9A",
+	"priority": 500,
+	"name": "AppleItunes",
+	"response": {
+		"proxyBaseUrl": "https://itunes.apple.com/search"
+	},
+	"uuid": "586C6E49-00C2-4355-A57D-A568C2596B9A",
+	"persistent": true
+}

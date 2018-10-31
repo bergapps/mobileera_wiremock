@@ -1,0 +1,12 @@
+version: "3"
+services:
+ wiremock:
+  image: rodolpheche/wiremock:latest
+  ports: 
+    - "9191:8080"
+  volumes:
+    - ./__files/:/./home/wiremock/__files/
+    - ./mappings/:/./home/wiremock/mappings/
+  command:
+    - -verbose
+    - -global-response-templating
